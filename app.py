@@ -14,4 +14,4 @@ def qaretrival():
     return jsonify({"question": "What is Flask?", "answer": "Flask is a micro web framework for Python."}), 200
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0')
